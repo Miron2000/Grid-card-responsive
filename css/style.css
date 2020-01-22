@@ -1,0 +1,36 @@
+.container {
+  margin: 2rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(197px, 1fr));
+  grid-gap: 2vmin; }
+
+/* demo purposes only */
+* {
+  font-family: "Poppins", sans-serif; }
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  height: 170px;
+  transition: all 0.5s;
+  cursor: pointer; }
+  .card:hover {
+    transform: scale(1.2);
+    z-index: 100; }
+  .card img {
+    height: 100%;
+    background-size: cover;
+    width: 100%; }
+  .card h3 {
+    position: absolute;
+    top: 2px;
+    color: white;
+    padding-left: 28px; }
+  .card p {
+    position: absolute;
+    bottom: 2px;
+    padding-left: 28px;
+    color: white; }
